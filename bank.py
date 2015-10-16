@@ -19,3 +19,5 @@ balance = json.loads(response.content)
 
 response = client.connect_get()
 transactions = json.loads(response.content)
+
+print balance
